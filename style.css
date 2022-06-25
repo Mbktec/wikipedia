@@ -1,0 +1,50 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:linear-gradient(to right, antiquewhite, #bab67c) ;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    margin-top: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    width: 10vh;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    box-shadow: 2px ;
+    font-size: 15px;
+    border-radius: 5px;
+    color: rgb(18, 29, 38);
+    margin-top: 15px;
+    min-width: 48vh;
+
+}
+
+a {
+    transform-style: none;
+}
+
+.r {
+    margin-top: 15px;
+ 
+    height: 32px;
+    cursor: pointer;
+    margin-left: -40px;
+    background-color: white;
+    border: none;
+ 
+}
