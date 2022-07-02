@@ -13,7 +13,7 @@ const clique = document.querySelector('.clique');
 
 
        donner.forEach((result)  => {
-        let resultURL = `https://fr.wikipedia.org/?curid=${data.pageid}`;
+        let resultURL = `https://fr.wikipedia.org/wiki/${result.title}`;
         console.log(resultURL);
         infos.innerHTML+=`
             <div class="col-md-3 col-sm-12">
